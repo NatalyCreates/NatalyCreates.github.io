@@ -1,2 +1,6 @@
-# Ideas folder
-[Ii]deas/
+# Ignore Jekyll Builds
+
+_site
+.sass-cache
+
+_site/
