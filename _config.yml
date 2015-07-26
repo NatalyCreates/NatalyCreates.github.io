@@ -2,11 +2,11 @@
 title: Nataly Creates
 email: nataly@natalycreates.com
 description: > # this means to ignore newlines until "baseurl:"
-  Nataly Creates - portfolio of creative work - games, stories, and code.
+  Nataly Creates, a portfolio of creative work, games, stories, and code.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://natalycreates.github.io" # the base hostname & protocol for your site
 twitter_username: natalyeliyahu
-github_username:  NatalyCreates
+github_username: NatalyCreates
 
 # Build settings
 markdown: kramdown
