@@ -1,15 +1,17 @@
 ---
 layout: page
 title: About
+categories: navigate
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hey there! I'm Nataly Eliyahu. I make games and occasionally do other creative work.
+I've worked on freelance projects in Unity3D as a programmer, and done some game design work as well.
+I also participate in jams and work on my own independant projects.
+Check out some of my work on this website! If you think we can work together, don't hesitate to contact me:
+[Email][]
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+I'm interested in freelance projects, particularly in Unity3D or Python, though I'm diving deeper into some other technologies as well.
+I'm also interested in employment opportunities in the game industry, in Canada and the US.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+[Email]: mailto:nataly@natalycreates.com
