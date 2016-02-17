@@ -13,6 +13,7 @@ title: Featured Games
 	{% for page in site.pages %}
 		{% if page.categories contains 'games' %}
 		<h2><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
+		<img src={{ page.img }}/>
 		{% endif %}
 	{% endfor %}
   </ul>
