@@ -18,3 +18,8 @@ a.hover {
 	color: #111;
 	text-decoration: underline;
 }
+
+div.blob {
+	max-width: 90%;
+	background-color: #666;
+}
