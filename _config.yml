@@ -20,3 +20,4 @@ markdown: kramdown
 
 categories: [games, navigate]
 tags: [games, jam, ggj, freelance]
+theme: jekyll-theme-cayman
