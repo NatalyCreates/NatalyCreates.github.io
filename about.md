@@ -29,6 +29,7 @@ I'm **looking for a job** as a programmer in the game industry. Preferably in th
 * Reverse Engineering
 * Game Design
 * Creative and Technical Writing
+
 More information on my [LinkedIn][] page.
 
 Check out some of my work on this website! If you think we could work together, don't hesitate to contact me:
