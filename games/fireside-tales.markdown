@@ -1,11 +1,13 @@
 ---
 layout: game
 title:  "Fireside Tales"
-tags: games cards
+tags: games
 categories: games
 permalink: /ft/
 img: /images/games/ft_img.jpg
 ---
-This is a physical card game which I made with Michael Shalyt, and recently published to The Game Crafter.
-It's available to order, or you can print it out for free!
+Fireside Tales is a physical card game about storytelling. I made this game in collaboration with Michael Shalyt.
+
+It's available to order from The Game Crafter, and you can print it out for free as well!
+
 [Official Website for Fireside Tales](http://fireside-tales.blogspot.co.il/)
