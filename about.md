@@ -32,9 +32,9 @@ I'm **looking for a job** as a programmer in the game industry. Preferably in th
 
 More information on my [LinkedIn][] page.
 
-Check out some of my work on this website! If you think we could work together, don't hesitate to contact me:
-[Email][]
+Check out some of my work on this website!
+
+You can contact me <a href="mailto:nataly@natalycreates.com" target="_blank">here</a>.
 
 [Zen Garden]: https://www.facebook.com/ZenKittyGames/
 [LinkedIn]: https://www.linkedin.com/in/natalyeliyahu/
-[Email]: mailto:nataly@natalycreates.com
