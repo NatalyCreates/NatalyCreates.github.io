@@ -8,15 +8,14 @@
 # Site settings
 title: Nataly Creates
 email: nataly@natalycreates.com
-description: > # this means to ignore newlines until "baseurl:"
-  Nataly Shalem - game developer.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://natalycreates.com" # the base hostname & protocol for your site
+description: Nataly Shalem - game developer portfolio
+baseurl: ""
+url: "http://natalycreates.com"
 twitter_username: NatalyCreates
 github_username:  NatalyCreates
 
 # Build settings
 markdown: kramdown
 
-categories: [games, navigate]
-tags: [games, jam, ggj, freelance]
+categories: [nav, games, stories, photos, otherprojects]
+theme: jekyll-theme-cayman
