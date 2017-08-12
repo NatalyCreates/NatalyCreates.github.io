@@ -1,7 +1,30 @@
 <div class="header">
     Nataly Creates
     <br />
-    <img class="icon" src="http://icons.iconarchive.com/icons/limav/flat-gradient-social/256/Twitter-icon.png" />
-    <img class="icon" src="http://icons.iconarchive.com/icons/limav/flat-gradient-social/256/Twitter-icon.png" />
-    <img class="icon" src="http://icons.iconarchive.com/icons/limav/flat-gradient-social/256/Twitter-icon.png" />
+	<a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
+		<img class="icon" src="../images/icons/twitter.png" />
+	</a>
+	<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
+		<img class="icon" src="../images/icons/linkedin.png" />
+	</a>
+	<a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank">
+		<img class="icon" src="../images/icons/facebook.png" />
+	</a>
+	<br /><br />
+	<ul class="accounts">
+		{% if site.twitter_username %}
+			<li>
+				<a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
+					<span><img class="icon" src="../images/icons/twitter.png" /></span>
+				</a>
+			</li>
+		{% endif %}
+		{% if site.twitter_username %}
+			<li>
+				<a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
+					<span><img class="icon" src="../images/icons/twitter.png" /></span>
+				</a>
+			</li>
+		{% endif %}
+	</ul>
 </div>
