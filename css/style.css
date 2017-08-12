@@ -58,12 +58,12 @@ background-color: #E3EBE7;
 }
 
 img.preview {
+display: block;
 padding: 0;
 border-radius: 8px;
 margin: 0 auto;
 min-width: 200px;
 width: 400x;
-max-width: 90%;
 min-height: 200px;
 height: 400px;
 }
@@ -95,12 +95,12 @@ list-style: none;
 }
 
 .projects li.item {
+display: block;
 padding: 0;
 border-radius: 8px;
-margin: 20px;
+margin: 20px auto;
 min-width: 200px;
 width: 400x;
-max-width: 90%;
 min-height: 200px;
 height: 400px;
 
