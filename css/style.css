@@ -1,3 +1,5 @@
+
+// Body
 body {
 margin: 0;
 padding: 0;
@@ -8,34 +10,47 @@ line-height: 1;
 background-color: #1F7D53;
 }
 
+// Links
 a {
 color: #BADA55;
 text-decoration: none;
 }
-
 a:visited {
 color: darken(#BADA55, 20%);
 text-decoration: none;
 }
-
 a:hover {
 color: #111111;
 text-decoration: underline;
 }
 
+// Title Link
+a.title {
+color: #111111;
+text-decoration: none;
+}
+a.title:visited {
+color: #111111;
+text-decoration: none;
+}
+a.title:hover {
+color: #111111;
+text-decoration: none;
+}
+
+// Icon Links
 a.icon {
 text-decoration: none;
 margin: 10px auto;
 }
-
 a.icon:visited {
 text-decoration: none;
 }
-
 a.icon:hover {
 text-decoration: none;
 }
 
+// Containers
 div.header {
 padding: 2px;
 border-radius: 8px;
