@@ -95,18 +95,15 @@ list-style: none;
 }
 
 .projects li.item {
-display: block;
 padding: 0;
 border-radius: 8px;
 margin: 20px auto;
-min-width: 200px;
 width: 400x;
-min-height: 200px;
 height: 400px;
 
 text-align: center;
 
-background-color: #044011;
+background-color: #E3EBE7;
 background-size: 400px 400px;
 background-repeat: no-repeat;
 }
