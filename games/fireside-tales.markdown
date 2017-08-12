@@ -1,5 +1,5 @@
 ---
-layout: game
+layout: blob
 title:  "Fireside Tales"
 categories: games featured
 permalink: /ft/

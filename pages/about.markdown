@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blob
 title: About
 categories: nav
 permalink: /about/

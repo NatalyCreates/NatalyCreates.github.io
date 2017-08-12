@@ -1,5 +1,5 @@
 ---
-layout: game
+layout: blob
 title:  "I Have a Mouth and I Must Clean"
 categories: games featured
 permalink: /iham/

@@ -1,8 +1,31 @@
 ---
-layout: grid
-type: games
+layout: default
 title: Games
 categories: nav
 permalink: /games/
 ---
-
+<ul class="projects">
+	{% for proj in site.pages %}
+		{% if proj.categories contains 'games' %}
+			<a class="projlink" href="{{ proj.url | prepend: site.url }}">
+			<li class="item" style="background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+			url( {{ proj.img }} );">
+				<div class="proj">
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<h3>
+						{{ proj.title }}
+					</h3>
+					{{ proj.description }}
+				</div>
+			</li>
+			</a>
+		{% endif %}
+	{% endfor %}
+	
+	<li class="item dummy"></li>
+    <li class="item dummy"></li>
+</ul>
