@@ -1,13 +1,12 @@
 ---
 layout: default
-title: Nataly Creates
 ---
 <ul class="projects">
-	{% for page in site.pages %}
-		{% if page.categories contains 'featured' %}
-			<a class="projlink" href="{{ page.url | prepend: site.url }}">
+	{% for proj in site.pages %}
+		{% if proj.categories contains '{{ page.type }}' %}
+			<a class="projlink" href="{{ proj.url | prepend: site.url }}">
 			<li class="item" style="background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
-			url( {{ page.img }} );">
+			url( {{ proj.img }} );">
 				<div class="proj">
 					<br />
 					<br />
@@ -15,9 +14,9 @@ title: Nataly Creates
 					<br />
 					<br />
 					<h3>
-						{{ page.title }}
+						{{ proj.title }}
 					</h3>
-					{{ page.description }}
+					{{ proj.description }}
 				</div>
 			</li>
 			</a>

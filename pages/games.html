@@ -1,20 +1,8 @@
 ---
-layout: page
+layout: grid
+type: games
 title: Games
 categories: nav
 permalink: /games/
 ---
 
-<div class="home">
-
-  <ul class="games-list">
-	{% for page in site.pages %}
-		{% if page.categories contains 'games' %}
-		<h2><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
-		<img src={{ page.img }} />
-		<br><br>
-		{% endif %}
-	{% endfor %}
-  </ul>
-
-</div>
