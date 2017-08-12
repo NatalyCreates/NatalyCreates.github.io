@@ -15,11 +15,25 @@ text-decoration: none;
 
 a:visited {
 color: darken(#BADA55, 20%);
+text-decoration: none;
 }
 
 a:hover {
 color: #111111;
 text-decoration: underline;
+}
+
+a.icon {
+text-decoration: none;
+margin: 10px auto;
+}
+
+a.icon:visited {
+text-decoration: none;
+}
+
+a.icon:hover {
+text-decoration: none;
 }
 
 div.header {
@@ -67,8 +81,9 @@ margin: 10px auto;
 }
 
 img.icon {
-height: 30px;
-width: 30px;
+
+height: 40px;
+width: 40px;
 }
 
 ul.projects {
@@ -113,18 +128,27 @@ margin-bottom: 0 !important;
 
 div.proj {
 color: white;
+
 font-size: 1.25em;
+
+font-weight: bold;
+font-style: italic;
+
 text-align: left;
+
 margin: 15px;
 padding: 0;
-font-weight: bold;
 }
 
 div.proj h3 {
 font-size: 1.75em;
+
 font-weight: bold;
+font-style: normal;
+
 text-align: left;
+
 margin-top: 5px;
-margin-bottom: 5px;
+margin-bottom: 10px;
 padding: 0;
 }
