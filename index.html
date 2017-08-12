@@ -3,20 +3,33 @@ layout: default
 title: Nataly Creates
 ---
 
-<div class="home">
-
-  <header class="post-header">
-    <h1 class="post-title">Projects</h1>
-  </header>
-
-  <ul class="games-list">
+<ul class="projects">
 	{% for page in site.pages %}
 		{% if page.categories contains 'games' %}
-		<h2><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
-		<img src={{ page.img }} />
-		<br><br>
+			<a href="{{ page.url | prepend: site.url }}">
+			<li class="item" style="
+			background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),
+			url({{ page.img }});
+			">
+				<div class="proj">
+					<br />
+					<br />
+					<br />
+					<br />
+					<h3>{{ page.title }}</h3>
+					Lorem ipsum dolor sit amet, expetenda voluptatum quaerendum ne sit, est case mollis dissentiet cu, justo veniam has ea. Liber impedit interesset has eu. Ut veri omittam dissentias vel. Qui molestie mediocrem periculis id, usu ex minim mazim nemore.
+				</div>
+			</li>
+			</a>
 		{% endif %}
 	{% endfor %}
-  </ul>
+	<li class="item dummy"></li>
+	<li class="item dummy"></li>
+	<li class="item dummy"></li>
+	<li class="item dummy"></li>
+	<li class="item dummy"></li>
+	<li class="item dummy"></li>
+	<li class="item dummy"></li>
+	<li class="item dummy"></li>
+</ul>
 
-</div>

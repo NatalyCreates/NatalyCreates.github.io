@@ -1,0 +1,136 @@
+---
+---
+@charset "utf-8";
+
+// Our Variables
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   1.125em;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1;
+
+$text-color:         #111111;
+
+$background-color:        #1F7D53;
+$blob-background-color:   #E3EBE7;
+$proj-background-color:   #044011;
+
+$link-color:         #BADA55;
+$link-color-hover:   #111111;
+$link-color-visited: darken($link-color, 20%);
+
+
+body {
+margin: 0;
+padding: 0;
+font-family: $base-font-family;
+font-size: $base-font-size;
+color: $text-color;
+line-height: $base-line-height;
+background-color: $background-color;
+}
+
+a {
+color: $link-color;
+text-decoration: none;
+}
+
+a:visited {
+color: $link-color-visited;
+}
+
+a:hover {
+color: $link-color-hover;
+text-decoration: underline;
+}
+
+div.header {
+padding: 2px;
+border-radius: 8px;
+margin: 20px auto;
+width: 95%;
+line-height: 1.5;
+text-align: center;
+background-color: $blob-background-color;
+font-weight: bold;
+font-size: 1.5em;
+}
+
+div.blob {
+padding: 2px;
+width: 95%;
+border-radius: 8px;
+margin: 10px auto;
+line-height: 1.5;
+text-align: center;
+background-color: $blob-background-color;
+}
+
+img.preview {
+min-width: 200px;
+width: 400px;
+min-height: 200px;
+height: 400px;
+margin: 0 auto;
+border-radius: 8px;
+}
+
+img.inline {
+max-width: 80%;
+margin: 10px auto;
+}
+
+img.icon {
+height: 30px;
+width: 30px;
+}
+
+ul.projects {
+align: center;
+width: 95%;
+padding: 2px;
+margin: 0 auto;
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.projects li.item {
+min-width: 400px;
+width: 400px;
+height: 400px;
+margin: 20px;
+border-radius: 8px;
+background-color: $proj-background-color;
+text-align: center;
+background-size: 400px 400px;
+background-repeat: no-repeat;
+}
+
+.projects li.dummy {
+min-height: 0 !important;
+height: 0 !important;
+padding-top: 0 !important;
+padding-bottom: 0 !important;
+margin-top: 0 !important;
+margin-bottom: 0 !important;
+}
+
+div.proj {
+color: white;
+font-size: 1.25em;
+text-align: left;
+margin: 15px;
+padding: 0;
+font-weight: bold;
+}
+
+div.proj h3 {
+font-size: 1.75em;
+font-weight: bold;
+text-align: left;
+margin-top: 5px;
+margin-bottom: 5px;
+padding: 0;
+}
