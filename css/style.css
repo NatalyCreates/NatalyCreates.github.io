@@ -116,8 +116,7 @@ width: 90%;
 max-width: 900px;
 height: auto;
 line-height: 1.5;
-align: center;
-text-align: center;
+text-align: left;
 background-color: #E3EBE7;
 }
 
@@ -155,7 +154,6 @@ height: auto;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-align: center;
 list-style: none;
 }
 
