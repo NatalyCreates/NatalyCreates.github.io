@@ -108,12 +108,16 @@ width: 90%;
 max-width: 900px;
 height: auto;
 line-height: 1.5;
-text-align: center;
 background-color: #E3EBE7;
 }
 
-span.blobtext {
-margin: 20px auto;
+h1 {
+text-align: center;
+}
+
+div.blobtext {
+margin: 20px;
+padding: 20px;
 text-align: left;
 }
 
