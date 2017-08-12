@@ -4,7 +4,8 @@ title: Nataly Creates
 ---
 <ul class="projects">
 	{% for page in site.pages %}
-		{% if page.categories contains 'games' %}
+		{% if page.categories contains 'featured' %}
+			<a class="projlink" href="{{ page.url | prepend: site.url }}">
 			<li class="item" style="background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
 			url( {{ page.img }} );">
 				<div class="proj">
@@ -14,14 +15,15 @@ title: Nataly Creates
 					<h3>
 						{{ page.title }}
 					</h3>
-					The quick brown fox jumped over the lazy dog.
-					The quick brown fox jumped over the lazy dog.
-					The quick brown fox jumped over the lazy dog.
-					The quick brown fox jumped over the lazy dog.
-					The quick brown fox jumped over the lazy dog.
-					The quick brown fox jumped over the lazy dog.
+					{{ page.url | prepend: site.url }}<br />
+					{{ page.url }}<br />
+					{{ site.baseurl }}<br />
+					{{ page.permalink }}<br />
+					<br /><br />
+					{{ page.description }}<br />
 				</div>
 			</li>
+			</a>
 		{% endif %}
 	{% endfor %}
 	

@@ -1,10 +1,10 @@
 ---
 layout: game
 title:  "Fireside Tales"
-tags: games
-categories: games
+categories: games featured
 permalink: /ft/
 img: /images/games/ft_img.jpg
+description:  "Fireside Tales is a physical card game about storytelling."
 ---
 Fireside Tales is a physical card game about storytelling. I made this game in collaboration with Michael Shalyt.
 

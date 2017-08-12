@@ -1,10 +1,10 @@
 ---
 layout: game
 title:  "I Have a Mouth and I Must Clean"
-tags: games jam ggj
-categories: games
+categories: games featured
 permalink: /iham/
 img: /images/games/iham_img.png
+description:  "A local multiplayer game about brushing teeth."
 ---
 A local multiplayer game about brushing teeth.
 

@@ -16,4 +16,4 @@ github_username:  NatalyCreates
 # Build settings
 markdown: kramdown
 
-categories: [nav, games, stories, photos, otherprojects]
+categories: [nav, games, featured, stories, photos, otherprojects]
