@@ -2,14 +2,13 @@
 layout: default
 title: Nataly Creates
 ---
-Test6
+Test7
 <ul class="projects">
 	{% for page in site.pages %}
 		{% if page.categories contains 'games' %}
 			<a href="{{ page.url | prepend: site.url }}">
 			<li class="item" style="
-			background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),
-			url({{ page.imga }});
+			background-image: url({{ page.imga }});
 			">
 				<div class="proj">
 					<br />
