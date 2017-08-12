@@ -1,7 +1,7 @@
 
 html {
 background-color: #a7cdd2;
-background-image: url("{{ site.url }}/images/bg/grass.jpg");
+background-image: url("../images/bg/grass.jpg");
 background-size:     cover;
 background-repeat:   no-repeat;
 background-position: center center;
