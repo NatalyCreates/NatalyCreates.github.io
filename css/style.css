@@ -31,30 +31,41 @@ min-width: 200px;
 width: 1000x;
 max-width: 90%;
 height: auto;
+
 line-height: 1.5;
 text-align: center;
+
 background-color: #E3EBE7;
+
 font-weight: bold;
 font-size: 1.5em;
 }
 
 div.blob {
 padding: 2px;
-width: 95%;
 border-radius: 8px;
-margin: 10px auto;
+margin: 20px auto;
+min-width: 200px;
+width: 1000x;
+max-width: 90%;
+height: auto;
+
 line-height: 1.5;
+align: center;
 text-align: center;
+
 background-color: #E3EBE7;
 }
 
 img.preview {
+padding: 0;
+border-radius: 8px;
+margin: 0 auto;
 min-width: 200px;
-width: 400px;
+width: 400x;
+max-width: 90%;
 min-height: 200px;
 height: 400px;
-margin: 0 auto;
-border-radius: 8px;
 }
 
 img.inline {
@@ -68,24 +79,34 @@ width: 30px;
 }
 
 ul.projects {
-align: center;
-width: 95%;
 padding: 2px;
-margin: 0 auto;
-list-style: none;
+margin: 20px auto;
+min-width: 240px;
+width: 1000x;
+max-width: 90%;
+height: auto;
+
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
+align: center;
+
+list-style: none;
 }
 
 .projects li.item {
-min-width: 400px;
-width: 400px;
-height: 400px;
-margin: 20px;
+padding: 0;
 border-radius: 8px;
-background-color: #044011;
+margin: 20px;
+min-width: 200px;
+width: 400x;
+max-width: 90%;
+min-height: 200px;
+height: 400px;
+
 text-align: center;
+
+background-color: #044011;
 background-size: 400px 400px;
 background-repeat: no-repeat;
 }
