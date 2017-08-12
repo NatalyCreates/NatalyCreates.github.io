@@ -6,11 +6,27 @@ Test11
 <ul class="projects">
 	{% for page in site.pages %}
 		{% if page.categories contains 'games' %}
-			<li class="item">
-			{{ page.title }}
+			<li class="item" style="background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+			url(http://natalycreates.com/images/profilepic.jpg);">
+				<div class="proj">
+					<br />
+					<br />
+					<br />
+					<h3>
+						{{ page.title }}
+					</h3>
+					The quick brown fox jumped over the lazy dog.
+					The quick brown fox jumped over the lazy dog.
+					The quick brown fox jumped over the lazy dog.
+					The quick brown fox jumped over the lazy dog.
+					The quick brown fox jumped over the lazy dog.
+					The quick brown fox jumped over the lazy dog.
+				</div>
 			</li>
 		{% endif %}
 	{% endfor %}
 	
+	<li class="item dummy"></li>
+    <li class="item dummy"></li>
 </ul>
 
