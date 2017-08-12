@@ -1,5 +1,5 @@
 
-// Body
+/* Body */
 body {
 margin: 0;
 padding: 0;
@@ -10,7 +10,7 @@ line-height: 1;
 background-color: #1F7D53;
 }
 
-// Links
+/* Links */
 a {
 color: #BADA55;
 text-decoration: none;
@@ -24,21 +24,19 @@ color: #111111;
 text-decoration: underline;
 }
 
-// Title Link
+/* Title Link */
 a.title {
-color: #111111;
+color: #5a3c56;
 text-decoration: none;
 }
 a.title:visited {
-color: #111111;
 text-decoration: none;
 }
 a.title:hover {
-color: #111111;
 text-decoration: none;
 }
 
-// Icon Links
+/* Icon Links */
 a.icon {
 text-decoration: none;
 margin: 10px auto;
@@ -50,7 +48,7 @@ a.icon:hover {
 text-decoration: none;
 }
 
-// Containers
+/* Containers */
 div.header {
 padding: 2px;
 border-radius: 8px;
@@ -63,7 +61,8 @@ line-height: 1.5;
 text-align: center;
 background-color: #E3EBE7;
 font-weight: bold;
-font-size: 1.5em;
+font-size: 2em;
+color:
 }
 
 div.blob {
@@ -96,9 +95,12 @@ margin: 10px auto;
 }
 
 img.icon {
-
-height: 40px;
-width: 40px;
+margin-left: 15px;
+margin-right: 15px;
+margin-top: 5px;
+margin-bottom: 5px;
+height: 50px;
+width: 50px;
 }
 
 ul.projects {
