@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-categories: navigate
+categories: nav
 permalink: /about/
 ---
 Hey there! I'm **Nataly Shalem**. I make games and other creative stuff.

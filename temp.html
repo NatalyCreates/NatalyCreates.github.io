@@ -2,28 +2,6 @@
 
 
 
-<li class="item dummy"></li>
-<li class="item dummy"></li>
-<li class="item dummy"></li>
-<li class="item dummy"></li>
-<li class="item dummy"></li>
-<li class="item dummy"></li>
-<li class="item dummy"></li>
-<li class="item dummy"></li>
-
-
-
-
-
-
-
-
-
-maximum-scale=1
-
-<meta name="viewport" content="initial-scale=1" />
-
-
 
 @charset "utf-8";
 
@@ -65,11 +43,6 @@ $link-color-visited: darken($link-color, 20%);
 
 <nav class="site-nav">
       <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.categories contains 'navigate' %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
       </div>
     </nav>
 	
