@@ -6,20 +6,9 @@ Test7
 <ul class="projects">
 	{% for page in site.pages %}
 		{% if page.categories contains 'games' %}
-			<a href="{{ page.url | prepend: site.url }}">
-			<li class="item" style="
-			background-image: url({{ page.imga }});
-			">
-				<div class="proj">
-					<br />
-					<br />
-					<br />
-					<br />
-					<h3>{{ page.title }}</h3>
-					Lorem ipsum dolor sit amet, expetenda voluptatum quaerendum ne sit, est case mollis dissentiet cu, justo veniam has ea. Liber impedit interesset has eu. Ut veri omittam dissentias vel. Qui molestie mediocrem periculis id, usu ex minim mazim nemore.
-				</div>
+			<li class="item">
+			{{ page.title }}
 			</li>
-			</a>
 		{% endif %}
 	{% endfor %}
 	
