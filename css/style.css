@@ -108,7 +108,7 @@ font-weight: bold;
 }
 
 div.blob {
-padding: 2px;
+padding: 20px;
 border-radius: 8px;
 margin: 20px auto;
 min-width: 200px;
@@ -121,8 +121,7 @@ background-color: #E3EBE7;
 }
 
 span.blobtext {
-	padding: 15px;
-	text-align: left;
+text-align: left;
 }
 
 img.preview {
