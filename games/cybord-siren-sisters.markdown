@@ -3,7 +3,7 @@ layout: blob
 title:  "Cyborg Siren Sisters"
 categories: games featured
 permalink: /cyborgsirensisters/
-img: /images/games/cyborgsirens_img.jpg
+img: /images/games/cyborgsirens_img.png
 description:  "Cyborg Siren Sisters is a local multiplayer rhythm game for two players."
 ---
 
@@ -14,4 +14,5 @@ Players need to cooperate to generate the correct waves to take down ships of di
 It's available on Google Play in Beta release.
 
 [Get Cyborg Siren Sisters from Google Play](https://play.google.com/store/apps/details?id=com.natalycreates.cyborgsirensisters)
+
 [Global Game Jam 2017 Page](https://globalgamejam.org/2017/games/cyborg-siren-sisters)

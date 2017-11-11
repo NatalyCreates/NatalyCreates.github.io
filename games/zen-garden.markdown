@@ -3,7 +3,7 @@ layout: blob
 title:  "Zen Garden"
 categories: games featured
 permalink: /zengarden/
-img: /images/games/zen_img.jpg
+img: /images/games/zen_img.png
 description:  "Zen Garden is a relaxing puzzle game for mobile devices."
 ---
 
@@ -14,7 +14,12 @@ It's available on Google Play and the App Store!
 
 [Zen Garden Website](http://fireside-tales.blogspot.co.il/)
 
+
+
 [Get it from Google Play](http://bit.ly/ZenGardenAndroid)
+
 [Get it from App Store](http://bit.ly/ZenGardenIOS)
+
+
 
 [Facebook Page](https://www.facebook.com/ZenKittyGames/)
